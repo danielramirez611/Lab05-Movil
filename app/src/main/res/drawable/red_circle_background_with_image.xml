@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo circular rojo -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FF0000"/> <!-- Color rojo -->
+        </shape>
+    </item>
+    <!-- Imagen existente -->
+    <item android:drawable="@drawable/end"
+        android:gravity="center"
+        android:width="100dp"
+        android:height="100dp"/>
+</layer-list>

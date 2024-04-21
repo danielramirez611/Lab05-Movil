@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nombres"
+            android:textSize="45sp"
+            android:layout_marginLeft="6dp"
+            android:gravity="center_horizontal"/>
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/contacto"/>
+
+        <TextView
+            android:id="@+id/txtLlamadNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="numero"
+            android:textSize="30sp"
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/microfono" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/keypad"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sound"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnEnd"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/red_circle_background_with_image"/>
+
+
+
+</LinearLayout>
